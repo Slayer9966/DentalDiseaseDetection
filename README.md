@@ -1,6 +1,6 @@
-# 🦷 Dental Caries Detection using YOLOv12m
+# 🦷 Dental Caries Detection using YOLOv11
 
-This project performs **automated detection of dental caries (cavities)** using a custom-trained **YOLOv12m** object detection model. The model was trained on a labeled dataset from **Roboflow** and is designed to identify caries in dental-related images.
+This project performs **automated detection of dental caries (cavities)** using a custom-trained **YOLOv11** object detection model. The model was trained on a labeled dataset from **Roboflow** and is designed to identify caries in dental-related images.
 
 ---
 
@@ -8,10 +8,10 @@ This project performs **automated detection of dental caries (cavities)** using 
 
 ```bash
 📁 Dental-Caries-Detection/
-├── best.pt               # Trained YOLOv12m weights (model file)
+├── best.pt               # Trained YOLOv11 weights (model file)
 ├── im.jpeg               # Input image to analyze
 ├── output.jpg            # Output image with caries detection (auto-generated)
-├── detect_teeth.py       # Python script for YOLOv12m inference
+├── detect_teeth.py       # Python script for YOLOv11 inference
 ├── requirements.txt      # List of Python dependencies
 └── README.md             # Project documentation
 ```
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### 3. Add Files
 
-- Place your trained YOLOv12m model (`best.pt`) in the project folder.
+- Place your trained YOLOv11 model (`best.pt`) in the project folder.
 - Add an image to detect caries (e.g., `im.jpeg`).
 
 ---
@@ -55,7 +55,7 @@ This script will:
 
 ## 🧠 About the Model
 
-- **Model Architecture:** YOLOv12m (Ultralytics)
+- **Model Architecture:** YOLOv11 (Ultralytics)
 - **Trained On:** A custom dental dataset from [Roboflow](https://roboflow.com/)
 - **Target Class:** `caries` (dental cavities)
 - **Output:** Bounding boxes highlighting caries regions

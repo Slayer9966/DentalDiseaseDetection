@@ -1,4 +1,4 @@
-# 🦷 Dental Caries Detection using YOLOv8
+# 🦷 Dental Caries Detection using YOLOv12m
 
 This project performs **automated detection of dental caries (cavities)** using a custom-trained **YOLOv12m** object detection model. The model was trained on a labeled dataset from **Roboflow** and is designed to identify caries in dental-related images.
 

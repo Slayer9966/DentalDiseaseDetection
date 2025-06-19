@@ -8,10 +8,10 @@ This project performs **automated detection of dental caries (cavities)** using 
 
 ```bash
 📁 Dental-Caries-Detection/
-├── best.pt               # Trained YOLOv8 weights (model file)
+├── best.pt               # Trained YOLOv12m weights (model file)
 ├── im.jpeg               # Input image to analyze
 ├── output.jpg            # Output image with caries detection (auto-generated)
-├── detect_teeth.py       # Python script for YOLOv8 inference
+├── detect_teeth.py       # Python script for YOLOv12m inference
 ├── requirements.txt      # List of Python dependencies
 └── README.md             # Project documentation
 ```
